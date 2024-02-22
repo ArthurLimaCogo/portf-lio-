@@ -2,9 +2,10 @@
 
 ## Tarefas
 😎✔❌
-* [ ] Header(cabeçalho)
+* [✔] Header(cabeçalho)
+    * [✔] HTML
+    * [] CSS
 * [ ] Apresentação
 * [ ] Projetos
 * [ ] Conhecimentos
 * [ ] Formulario de Orçamento
-\
