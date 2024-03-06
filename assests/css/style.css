@@ -1,6 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
+:root{
+    --color-destaque: #FF4B1F;
+    --color-padrao: #FF9068;
+    --color-preto: #1B1B1B;
+    --color-branco: #ECECEC;
+    --font-titulo: "Montserrat", sans-serif;
+    --font-body: "Poppins", sans-serif;
+}
+
+
+
+
+
+header{
+    height: 100vh;
+
+}
+
 header::before{
     content: "";
     background-image: url("../images/header.png");
@@ -18,9 +36,33 @@ h1{
     font-weight: 800;
     font-family: "Montserrat", sans-serif;
 }
-h2{
+header h2{
     color: #ECECEC;
     font-size: 40;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
+}
+
+#secao-apresentacao{
+    display: flex;
+    padding: 4rem;
+    align-items: center;
+}
+
+#secao-apresentacao img{
+    border-radius: 50%;
+}
+
+#texto-apresentacao{
+    color: var(--color-preto);
+}
+
+#texto-apresentacao h2{
+    font-size: 2.5rem;
+    font-family: var(--font-titulo);
+}
+
+#texto-apresentacao p{
+    font-size: 1.5rem;
+    font-family: var(--font-body);
 }
